@@ -1,13 +1,12 @@
-#include "mat2str.h"
+#include "mat2str/mat2str.h"
 
 // glm and linalg are not provided by this lib, you have to provide them yourself if you want to print their matrices
 #include <glm/glm.hpp>
-#include "mat2str-glm.h"
-
+#include "mat2str/mat2str-glm.h"	
 #include <linalg/linalg.h>
-#include "mat2str-linalg.h"
+#include "mat2str/mat2str-linalg.h"	
 
-#include "mat2str-cout.h"
+#include "mat2str/mat2str-cout.h"
 
 #include <iostream>
 

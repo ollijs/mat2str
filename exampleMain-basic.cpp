@@ -1,7 +1,7 @@
-#include "mat2str.h"
+#include "mat2str/mat2str.h"
 
 
-#include "mat2str-cout.h"
+#include "mat2str/mat2str-cout.h"
 
 #include <iostream>
 
